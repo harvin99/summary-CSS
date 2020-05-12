@@ -44,7 +44,9 @@ nav {
 }
 .search-cart {
     justify-content: space-around;
-    color: #333;
+}
+.search-cart i {
+    color: #d6d6d6;
 }
 .search-cart .search a:hover, a:visited, a:active {
     color: #d6d6d6;
