@@ -1,0 +1,94 @@
+.grid-image {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 1rem;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+#wwdc {
+    background-image: url('com/v/home/h/images/promos/wwdc-2020/tile__cauwwcyyn9hy_medium.jpg');
+}
+#watchs5 {
+    background-image: url('https://www.apple.com/v/home/h/images/promos/watch-series-5/tile_aws5__fwphji1d8yeu_medium.jpg');
+    display: flex;
+    justify-content: center;
+    background-position: 0 100px;
+    background-repeat: no-repeat;
+}
+#watchs5 .container-content .logo-title {
+    text-align: center;
+    padding: 40px 0px 0px;
+}
+#watchs5 .container-content .headline-watch {
+    margin-top: 7px;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+#watchs5 .container-content .headline-watch p {
+    font-size: 19px;
+    line-height: 1.21053;
+    font-weight: 400;
+    letter-spacing: .012em;
+    color: #000;
+}
+#trying {
+    background-image: url('https://www.apple.com/v/home/h/images/promos/tv-plus-trying/tile__cauwwcyyn9hy_medium.jpg');
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+}
+.trying .container-content {
+    padding-bottom: 5em;
+}
+.trying .container-content a {
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+}
+.trying .container-content a:hover {
+    text-decoration: underline;
+}
+#macbookpro {
+    background-image: url('https://www.apple.com/v/home/h/images/promos/macbook-pro-13/tile__cauwwcyyn9hy_medium.jpg');
+}
+#macbookpro-title1, #macbookpro-title2 {
+    color: #fff;
+}
+#today-at-apple {
+    background-image: url('https://www.apple.com/v/home/h/images/promos/taa-refresh/tile__cauwwcyyn9hy_medium.jpg');
+    display: flex;
+    justify-content: center;
+    padding-top: 5em;
+}
+#today-at-apple .container-content .logo-at-home {
+    text-align: center;
+}
+#covid19 {
+    background-color: #105eab;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#covid19 .container-content {
+    margin: 5em;
+}
+#covid19 .container-content .logo-app-covid19, .headline {
+    text-align: center;
+}
+#covid19 .container-content .headline {
+    font-size: 32px;
+    line-height: 1.125;
+    font-weight: 600;
+    letter-spacing: .002em;
+    color: #fff;
+}
+#covid19 .container-content .link {
+    margin: 0.7em;
+}
+#covid19 .container-content .link a{
+    color: #fff;
+    font-size: 15px;
+}
