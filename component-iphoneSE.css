@@ -1,32 +1,34 @@
-.iphoneSE {
+.iphone {
     height: 100vh;
     width: 100%;
-    background-image: url('https://www.mtn.co.za/SiteCollectionDocuments/iPhone_May2019/images/iPhoneSE.png');
     background-size: cover;
     background-repeat: none;
 }
-.iphoneSE .container-content h1 {
+#iphoneSE {
+    background-image: url('https://www.apple.com/v/home/h/images/heroes/iphone-se/hero__dvsxv8smkkgi_medium.jpg');
+}
+.iphone .container-content h1 {
     font-size: 50px;
     padding-top: 40px;
 }
-.iphoneSE .container-content h1, h2 {
+.iphone .container-content h1, h2 {
     color: #fff;
 }
-.iphoneSE .container-content h1, h2, p, .link{
+.iphone .container-content h1, h2, p, .link{
     text-align: center;
 }
-.iphoneSE .container-content p {
+.iphone .container-content p {
     padding: 10px;
     color: #68868b;
 }
-.iphoneSE .container-content .link a {
+.iphone .container-content .link a {
     margin: 0px 15px;
     font-size: 24px;
     text-decoration: none;
 }
-.iphoneSE .container-content .link a:hover, a:visited, a:active {
+.iphone .container-content .link a:hover, a:visited, a:active {
     color: #2982bb;
 }
-.iphoneSE .container-content .link a:hover {
+.iphone .container-content .link a:hover {
     text-decoration: underline;
 }
